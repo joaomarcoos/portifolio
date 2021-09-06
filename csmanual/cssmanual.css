@@ -8,6 +8,10 @@ body a{
     text-decoration: none !important;
 }
 
+.font-color{
+    color: rgb(241, 38, 106);
+}
+
 .header-bg{
     background-color: rgba(0, 0, 0, 0.6);
     opacity: .9;
@@ -90,7 +94,7 @@ body a{
     }
 }
 
-.section-sobre, .section-habilidades, .section-projetos, .section-contato, footer{
+.section-sobre, .section-habilidades, .section-projetos, .section-contato{
     background-color: rgb(231, 231, 231);
 }
 
@@ -127,7 +131,7 @@ body a{
 .card-content-title{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 /*
